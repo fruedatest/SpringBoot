@@ -1,0 +1,16 @@
+2022-06-20 15:26:44.154  INFO 6148 --- [main] com.project.main.Project001Application   : Starting Project001Application using Java 17.0.3 on DESKTOP-590OL54 with PID 6148 (C:\Users\USUARIO\Documents\workspace-spring-tool-suite-4-4.15.0.RELEASE\Project001\target\classes started by USUARIO in C:\Users\USUARIO\Documents\workspace-spring-tool-suite-4-4.15.0.RELEASE\Project001)
+2022-06-20 15:26:44.158 DEBUG 6148 --- [main] com.project.main.Project001Application   : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-20 15:26:44.159  INFO 6148 --- [main] com.project.main.Project001Application   : No active profile set, falling back to 1 default profile: "default"
+2022-06-20 15:26:45.473  INFO 6148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-20 15:26:45.496  INFO 6148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-20 15:26:45.498  INFO 6148 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-20 15:26:45.665  INFO 6148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-20 15:26:45.665  INFO 6148 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1396 ms
+2022-06-20 15:26:46.174  INFO 6148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-20 15:26:46.190  INFO 6148 --- [main] com.project.main.Project001Application   : Started Project001Application in 2.625 seconds (JVM running for 3.894)
+2022-06-20 15:26:46.195  INFO 6148 --- [main] com.project.main.Project001Application   : INFO MESSAGE
+2022-06-20 15:26:46.196  WARN 6148 --- [main] com.project.main.Project001Application   : A WARN MESSAGE
+2022-06-20 15:26:46.196 ERROR 6148 --- [main] com.project.main.Project001Application   : AN ERROR MESSAGE
+2022-06-20 15:26:46.197 DEBUG 6148 --- [main] com.project.main.Project001Application   : A DEBUG MESSAGE
+2022-06-20 15:26:46.197 TRACE 6148 --- [main] com.project.main.Project001Application   : A TRACE MESSAGE
+2022-06-20 15:28:22.688  INFO 6148 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.

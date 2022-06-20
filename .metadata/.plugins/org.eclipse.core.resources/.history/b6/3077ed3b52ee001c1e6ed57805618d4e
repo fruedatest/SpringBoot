@@ -1,0 +1,17 @@
+package com.project.main;
+
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+
+
+@SpringBootApplication
+public class Project001Application {
+
+	private static final Logger LOGGER = (Logger) LoggerFactory.getLogger(Project001Application)
+	public static void main(String[] args) {
+		SpringApplication.run(Project001Application.class, args);
+		
+	}
+}

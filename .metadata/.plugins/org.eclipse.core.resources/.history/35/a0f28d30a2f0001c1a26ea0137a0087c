@@ -1,0 +1,6 @@
+package com.project.controller;
+
+@Controller
+public class WebController {
+
+}

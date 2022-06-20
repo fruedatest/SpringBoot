@@ -1,0 +1,64 @@
+2022-06-17 17:30:40.419  INFO 4596 --- [main] com.project.main.Project001Application   : Starting Project001Application using Java 17.0.3 on DESKTOP-590OL54 with PID 4596 (C:\Users\USUARIO\Documents\workspace-spring-tool-suite-4-4.15.0.RELEASE\Project001\target\classes started by USUARIO in C:\Users\USUARIO\Documents\workspace-spring-tool-suite-4-4.15.0.RELEASE\Project001)
+2022-06-17 17:30:40.423  INFO 4596 --- [main] com.project.main.Project001Application   : No active profile set, falling back to 1 default profile: "default"
+2022-06-17 17:30:41.333  INFO 4596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-17 17:30:41.352  INFO 4596 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-17 17:30:41.354  INFO 4596 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-17 17:30:41.474  INFO 4596 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-17 17:30:41.475  INFO 4596 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 969 ms
+2022-06-17 17:30:41.841  INFO 4596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-17 17:30:41.855  INFO 4596 --- [main] com.project.main.Project001Application   : Started Project001Application in 1.837 seconds (JVM running for 2.899)
+2022-06-17 17:30:41.859  INFO 4596 --- [main] com.project.main.Project001Application   : INFO MESSAGE
+2022-06-17 17:30:41.859  WARN 4596 --- [main] com.project.main.Project001Application   : A WARN MESSAGE
+2022-06-17 17:30:41.860 ERROR 4596 --- [main] com.project.main.Project001Application   : AN ERROR MESSAGE
+2022-06-17 17:31:09.974  INFO 2424 --- [main] com.project.main.Project001Application   : Starting Project001Application using Java 17.0.3 on DESKTOP-590OL54 with PID 2424 (C:\Users\USUARIO\Documents\workspace-spring-tool-suite-4-4.15.0.RELEASE\Project001\target\classes started by USUARIO in C:\Users\USUARIO\Documents\workspace-spring-tool-suite-4-4.15.0.RELEASE\Project001)
+2022-06-17 17:31:09.977  INFO 2424 --- [main] com.project.main.Project001Application   : No active profile set, falling back to 1 default profile: "default"
+2022-06-17 17:31:10.875  INFO 2424 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-17 17:31:10.894  INFO 2424 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-17 17:31:10.895  INFO 2424 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-17 17:31:11.025  INFO 2424 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-17 17:31:11.025  INFO 2424 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 977 ms
+2022-06-17 17:31:11.366  WARN 2424 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-06-17 17:31:11.371  INFO 2424 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-06-17 17:31:11.389  INFO 2424 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-17 17:31:11.415 ERROR 2424 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-06-17 17:31:17.028  INFO 4596 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-06-17 17:31:32.335  INFO 10476 --- [main] com.project.main.Project001Application   : Starting Project001Application using Java 17.0.3 on DESKTOP-590OL54 with PID 10476 (C:\Users\USUARIO\Documents\workspace-spring-tool-suite-4-4.15.0.RELEASE\Project001\target\classes started by USUARIO in C:\Users\USUARIO\Documents\workspace-spring-tool-suite-4-4.15.0.RELEASE\Project001)
+2022-06-17 17:31:32.338  INFO 10476 --- [main] com.project.main.Project001Application   : No active profile set, falling back to 1 default profile: "default"
+2022-06-17 17:31:33.224  INFO 10476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-17 17:31:33.241  INFO 10476 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-17 17:31:33.241  INFO 10476 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-17 17:31:33.368  INFO 10476 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-17 17:31:33.369  INFO 10476 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 960 ms
+2022-06-17 17:31:33.740  INFO 10476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-17 17:31:33.753  INFO 10476 --- [main] com.project.main.Project001Application   : Started Project001Application in 1.834 seconds (JVM running for 2.7)
+2022-06-17 17:31:33.757  INFO 10476 --- [main] com.project.main.Project001Application   : INFO MESSAGE
+2022-06-17 17:31:33.757  WARN 10476 --- [main] com.project.main.Project001Application   : A WARN MESSAGE
+2022-06-17 17:31:33.758 ERROR 10476 --- [main] com.project.main.Project001Application   : AN ERROR MESSAGE
+2022-06-17 17:31:46.623  INFO 10476 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-06-17 17:31:53.125  INFO 3852 --- [main] com.project.main.Project001Application   : Starting Project001Application using Java 17.0.3 on DESKTOP-590OL54 with PID 3852 (C:\Users\USUARIO\Documents\workspace-spring-tool-suite-4-4.15.0.RELEASE\Project001\target\classes started by USUARIO in C:\Users\USUARIO\Documents\workspace-spring-tool-suite-4-4.15.0.RELEASE\Project001)
+2022-06-17 17:31:53.130  INFO 3852 --- [main] com.project.main.Project001Application   : No active profile set, falling back to 1 default profile: "default"
+2022-06-17 17:31:54.016  INFO 3852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-17 17:31:54.032  INFO 3852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-17 17:31:54.033  INFO 3852 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-17 17:31:54.159  INFO 3852 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-17 17:31:54.160  INFO 3852 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 962 ms
+2022-06-17 17:31:54.525  INFO 3852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-17 17:31:54.537  INFO 3852 --- [main] com.project.main.Project001Application   : Started Project001Application in 1.844 seconds (JVM running for 2.606)
+2022-06-17 17:31:54.541  INFO 3852 --- [main] com.project.main.Project001Application   : INFO MESSAGE
+2022-06-17 17:31:54.541  WARN 3852 --- [main] com.project.main.Project001Application   : A WARN MESSAGE
+2022-06-17 17:32:46.533  INFO 3852 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
