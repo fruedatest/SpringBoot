@@ -44,7 +44,7 @@ public class HomeController {
 	/*
 	 * RESPONSE ENTITY
 	 */
-	@RequestMapping("createUser003")
+	@RequestMapping("/createUser003")
 	@ResponseBody
 	public ResponseEntity<String> createUser003(){
 		final HttpHeaders httpHeaders = new HttpHeaders();

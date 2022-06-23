@@ -6,5 +6,10 @@
 <item elementID="=backend-app" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1655478152406_2" label="Window Working Set" name="Aggregate for window 1655478152406"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1655885257310_4" label="Multiple Working Sets" name="Aggregate:Back-end app:Java Main Sources:Java Test Sources:">
+<workingSet IMemento.internal.id="Back-end app"/>
+<workingSet IMemento.internal.id="Java Main Sources"/>
+<workingSet IMemento.internal.id="Java Test Sources"/>
+</workingSet>
 <mruList name="Back-end app"/>
 </workingSetManager>
